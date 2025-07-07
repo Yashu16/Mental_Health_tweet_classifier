@@ -34,21 +34,22 @@ The model was trained for 3 epochs with TrainingArguments configured for evaluat
 Example output:
 
 eval_accuracy: 0.94
-eval_f1: 0.94
+eval_f1:       0.94
 eval_precision: 0.95 (class 0), 0.94 (class 1)
 eval_recall:    0.94 (class 0), 0.95 (class 1)
 
-There are some mislabeled tweets in the dataset(eg. "Thank you so much" masked as mental health tweet)
+There are some mislabeled tweets in the dataset(eg, "Thank you so much" masked as a mental health tweet)
 
-🙌 Acknowledgements
+🙌 Acknowledgements:
+
 Hugging Face 🤗 Transformers
 
 scikit-learn
 
 Dataset from Kaggle
 
-📬 Contact
-Built by Yaswanth kottana
+📬 Contact:
+Built by **Yaswanth kottana**
 Feel free to reach out if you'd like to collaborate or discuss ideas!
 
-`In future I will be adding a web app to this project using streamlit`
+`In future, I will be adding a web app to this project using Streamlit`
